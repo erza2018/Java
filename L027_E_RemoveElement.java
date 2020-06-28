@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class L027_E_RemoveElement {
     public static int removeElement(int[] nums, int val) {
         // when val is found, swap the element to the beginning

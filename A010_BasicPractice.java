@@ -3,10 +3,10 @@
 public class A010_BasicPractice {
     private Object[] o = new Object[] {
             // // Reverse a linked list
-            // new L206_E_ReverseLinkedList(),
+             new L206_E_ReverseLinkedList(),
 
             // // Find a cycle of a linked list
-            // new L141_E_LinkedListCycle(),
+             new L141_E_LinkedListCycle(),
 
             // // Binary Tree Traversal - Recursive
             // // Binary Tree Traversal - Iterative

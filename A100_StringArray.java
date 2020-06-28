@@ -11,7 +11,7 @@ public class A100_StringArray
         //
         o = new Object[] {
              new L020_E_ValidParentheses(),
-        //     new L032_H_LongestValidParentheses(),
+             new L032_H_LongestValidParentheses(),
         //     new L071_M_SimplifyPath(),
         };
 
@@ -20,9 +20,9 @@ public class A100_StringArray
         // //
          o = new Object[] {
              new L344_E_ReverseString(),
-        //     new L151_M_ReverseWordsInString(),
-        //     new L345_E_ReverseVowelsOfAString(),
-        //     new L189_E_RotateArray(),  // reverse all, then reverse each
+             new L151_M_ReverseWordsInString(),
+             new L345_E_ReverseVowelsOfAString(),
+             new L189_E_RotateArray(),  // reverse all, then reverse each
          };
 
         // //
@@ -30,7 +30,7 @@ public class A100_StringArray
         // //
          o = new Object[] {
              new L028_E_StrStr(),
-        //     new L055_M_JumpGame(),
+             new L055_M_JumpGame(),
              new L058_E_LengthOfLastWord(),
              new L014_E_LongestCommonPrefix(),
          };
@@ -48,10 +48,10 @@ public class A100_StringArray
         // //
          o = new Object[] {
              new L026_E_RemoveDuplicates(),
-        //     new L027_E_RemoveElement(),
+             new L027_E_RemoveElement(),
         //     new L041_H_FirstMissingPositive(),
         //     new L268_M_MissingNumber(),
-        //     new L283_E_MoveZeros(),
+             new L283_E_MoveZeros(),
          };
 
         // //
@@ -86,14 +86,14 @@ public class A100_StringArray
         // //
         // // Dictionary or Hashset mapping (fast lookup)
         // //
-        // o = new object[] {
+         o = new Object[] {
         //     new L076_H_MinimumWindowSubstring(),  // also need to track/move Starting point
         //     new L030_H_SubstringWithConcatenationOfAllWords(), // dictionary mapping and tracking
-        //     new L205_E_IsomorphicStrings(),  // dictionary mapping
-        //     new L290_E_WordPattern(),
+             new L205_E_IsomorphicStrings(),  // dictionary mapping
+             new L290_E_WordPattern(),
         //     new L677_M_MapSumPairs(),  // SortedDictionary
         //     new L128_H_LongestConsecutiveSequence(), // Hashtable for quick lookup
-        // };
+         };
 
     }
 }
