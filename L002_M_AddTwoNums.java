@@ -1,12 +1,3 @@
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
-
 public class L002_M_AddTwoNums {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         
@@ -46,7 +37,7 @@ public class L002_M_AddTwoNums {
                 digit = digit % 10;
                 carry = true;
             }
-            
+
             finger3.next = new ListNode(digit);
             finger3 = finger3.next;
             

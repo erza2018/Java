@@ -1,13 +1,5 @@
 import java.util.Hashtable;
 
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
-  }
  
 
 public class L141_E_LinkedListCycle {
