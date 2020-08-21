@@ -23,7 +23,7 @@ public class L203_E_RemoveLinkedListEl {
     }
 
     public static void main(String[] args) {
-        A101_LinkedList builder = new A101_LinkedList();
+
     }
 
 }

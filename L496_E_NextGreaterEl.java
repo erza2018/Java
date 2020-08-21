@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Stack;
+
 
 public class L496_E_NextGreaterEl {
     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {

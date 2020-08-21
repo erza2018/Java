@@ -127,11 +127,11 @@ public class A001_Language {
         // ArrayList and Iterator
         // ArrayList is not synchronized (not thread-safe), and dynamically grow by 50%
         // capacity
-        ArrayList al = new ArrayList();
+        ArrayList<Integer> al = new ArrayList<Integer>();
         for (int i = 0; i < 10; i++) {
             al.add(i);
         }
-        Iterator itr = al.iterator();
+        Iterator<Integer> itr = al.iterator();
         while (itr.hasNext()) {
             int i = (Integer) itr.next();
             System.out.print(i + " ");
@@ -154,7 +154,7 @@ public class A001_Language {
         out.println(v.elementAt(0));
 
         // Vector - is an array, but growable/shrinkable.
-        Vector v1 = new Vector();
+        Vector<Integer> v1 = new Vector<Integer>();
         for (int i = 0; i < 10; i++) {
             v1.addElement(i);
         }

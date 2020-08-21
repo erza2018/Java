@@ -28,6 +28,6 @@ public class L290_E_WordPattern {
         return true;
     }
     public static void main(String[] args) {
-        boolean test1 = wordPattern("abba", "dog cat cat dog");
+
     }
 }

@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import java.util.HashMap;
+
 import java.util.HashSet;
 
 public class L532_E_KdiffPairs {
@@ -8,7 +8,6 @@ public class L532_E_KdiffPairs {
 
         HashSet<Integer> pairs = new HashSet<Integer>();
 
-        int pairCount = 0;
         for(int i = 0; i < nums.length - 1; i++){
             int j = i + 1;
             int difference = Integer.MIN_VALUE;

@@ -107,18 +107,18 @@ class MaxPQ<Key extends Comparable<Key>> {
         pq[j] = t;
     }
 
-    private void sink(int k){
-        while(2*k <= n){
-            int j = 2 * k;
-            if(j < n && less(j, j+1)){
-                j++;
-            }
-            if(!less(k, j)) break;
+    // private void sink(int k){
+    //     while(2*k <= n){
+    //         int j = 2 * k;
+    //         if(j < n && less(j, j+1)){
+    //             j++;
+    //         }
+    //         if(!less(k, j)) break;
 
-            exch(k, j);
-            k = j;
-        }
-    }
+    //         exch(k, j);
+    //         k = j;
+    //     }
+    // }
 
     private void swim(int k){
         while(k > 1 && less(k/2, k)){

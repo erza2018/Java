@@ -18,7 +18,7 @@ public class L032_H_LongestValidParentheses {
                 openParentheses.push(i);
             }
             else {
-                int corresponding = openParentheses.pop();
+
                 if(openParentheses.isEmpty()) {
                     openParentheses.push(i);
                 }
