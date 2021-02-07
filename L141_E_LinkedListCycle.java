@@ -18,5 +18,22 @@ public class L141_E_LinkedListCycle {
             }
         }
         return false;
+
+        /* O(1) space solution using two pointers. If cycle, the fast will meet the slow
+        if (head == null) {
+            return false;
+        }
+
+        ListNode slow = head;
+        ListNode fast = head.next;
+        while (slow != fast) {
+            if (fast == null || fast.next == null) {
+                return false;
+            }
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return true;
+        */
     }
 }
